@@ -107,7 +107,7 @@ const Index: React.FC = () => {
       {/* Hero Section */}
       <section className="relative overflow-hidden py-20 lg:py-32">
         {/* Background gradient */}
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-primary/10" />
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/5  to-primary/10" />
         
         {/* Decorative elements */}
         <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl" />
@@ -310,7 +310,7 @@ const Index: React.FC = () => {
                     size="lg" 
                     variant="outline"
                     asChild 
-                    className="text-lg px-8 py-6 border-white/30 text-primary-foreground hover:bg-white/10"
+                    className="text-lg px-8 py-6 border-white/30 text-info-foreground hover:bg-white/10"
                   >
                     <Link to="/demo">{t.viewDemo}</Link>
                   </Button>
